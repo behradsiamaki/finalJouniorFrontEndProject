@@ -1,0 +1,94 @@
+.container {
+    width: 53.5%;
+    position: absolute;
+}
+
+.imageBox {
+    display: flex;
+    margin-top: 50px;
+}
+
+.leftSide {
+    position: relative;
+    width: 100%;
+    margin-left: 250px;
+}
+
+.leftSide>img {
+    width: 530px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.introImageText {
+    width: 530px;
+    height: 200px;
+    text-align: center;
+    line-height: 18px;
+    background-color: rgb(23, 26, 36);
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 11px;
+    position: relative;
+    bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.healthTag {
+    position: relative;
+    top: 4px;
+    background-color: rgb(69, 72, 80);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.rightSideBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSide {
+    right: 270px;
+    position: relative;
+}
+
+.rightSide >img {
+    width: 350px;
+    border-radius: 5px;
+    right: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.introImageTextRight {
+    width: 300px;
+    height: 50px;
+    left: 20px;
+    line-height: 10px;
+    background-color: rgb(23, 26, 36);
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 11px;
+    position: relative;
+    bottom: 90px;
+}
+
+.healthTagRight {
+    position: relative;
+    top: 1px;
+    background-color: rgb(69, 72, 80);
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.LifeStyleTagRight {
+    position: relative;
+    top: 1px;
+    background-color: rgb(69, 72, 80);
+    border-radius: 15px;
+    padding: 3px;
+}

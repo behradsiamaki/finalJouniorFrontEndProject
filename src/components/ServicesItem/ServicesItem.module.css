@@ -1,0 +1,45 @@
+.servicesItem {
+    flex-basis: 33.3333%;
+    padding: 0 15px;
+}
+
+.servicesItemImage {
+    position: relative;
+    margin-top: 100px;
+    
+}
+
+.servicesItemImage > img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.servicesItemDetail {
+    background-image:linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.25s ease-in-out;
+}
+
+.musicTag {
+    color: white;
+    position: relative;
+    font-size: 10px;
+    top: 150px;
+    bottom: 0;
+    background-color: rgba(69, 72, 80, 0.841);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.servicesItem:hover .servicesItemDetail {
+    opacity: 0;
+}
