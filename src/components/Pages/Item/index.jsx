@@ -38,7 +38,7 @@ export default function Item() {
   useEffect(() => {
     fetchData(id);
     fetchDataRecommend()
-  }, []);
+  }, [id]);
   console.log(servicesItem);
   return (
     <>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ServicesItem({data}) {
   return (
-    <Link to={`item/${data.id}`}>
+    <Link to={`/item/${data.id}`}>
       <div className={styles.servicesItem}>
         <div>
           <div className={styles.servicesItemImage}>
