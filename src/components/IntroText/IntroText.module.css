@@ -1,5 +1,6 @@
 .textIntro {
     text-align: center;
+    z-index: 1;
 }
 
 .textIntro > h1 {
