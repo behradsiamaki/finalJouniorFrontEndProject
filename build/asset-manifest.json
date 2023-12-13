@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e4ab187.css",
+    "main.js": "/static/js/main.10210591.js",
+    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "static/media/qtq80-3Y32uo-1024x718.jpeg": "/static/media/qtq80-3Y32uo-1024x718.d921974f1cdff0d98754.jpeg",
+    "static/media/HedvigLettersSans-Regular.ttf": "/static/media/HedvigLettersSans-Regular.e058369d4d8ac5f8e1d8.ttf",
+    "static/media/jpg": "/static/media/7cbe4e742bc974ab1d4f5d49dcb34e98.ccddbe1b0c2f4b2ca701.jpg",
+    "static/media/learn-programming-career-jpg.webp": "/static/media/learn-programming-career-jpg.07204bd613dce5447b96.webp",
+    "static/media/instagram.svg": "/static/media/instagram.45f613499335316fd0d4eae158917c85.svg",
+    "static/media/skype.svg": "/static/media/skype.1bbd7e346d600ccbfdc90fb557255bc9.svg",
+    "static/media/youtube.svg": "/static/media/youtube.e7ba24d0fe1703a990a2762fc7211701.svg",
+    "static/media/linkdin.svg": "/static/media/linkdin.cbc2707485d56b2f8a2cfd23cb9873b0.svg",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.74cebdd9ba7e5f7928fe5eb8c65f551c.svg",
+    "static/media/search.svg": "/static/media/search.ced13e311b4171b351b230ba1da7498e.svg",
+    "static/media/twitter.svg": "/static/media/twitter.56fcd14c8c7a1388d2964f51ed144519.svg",
+    "main.1e4ab187.css.map": "/static/css/main.1e4ab187.css.map",
+    "main.10210591.js.map": "/static/js/main.10210591.js.map",
+    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e4ab187.css",
+    "static/js/main.10210591.js"
+  ]
+}
