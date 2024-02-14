@@ -18,7 +18,6 @@ export default function Home() {
     })
     .catch(function (error) {
       // handle error
-      console.log(error);
     });
   };
   useEffect(() => {
@@ -31,7 +30,6 @@ export default function Home() {
       <Container>
         <Row>
           {services.slice(0,10).map(function(item){
-            console.log(item);
             return <ServicesItem data={item} key={item.id} />
           })}
         </Row>

@@ -11,7 +11,7 @@
 .leftSide {
     position: relative;
     width: 100%;
-    margin-left: 250px;
+    margin-left: 340px;
 }
 
 .leftSide>img {
@@ -50,7 +50,7 @@
 }
 
 .rightSide {
-    right: 270px;
+    right: 340px;
     position: relative;
 }
 

@@ -20,7 +20,6 @@ export default function Item() {
         setLoading(false);
       })
       .catch(function (error) {
-        console.log(error);
       });
   };
 
@@ -31,7 +30,6 @@ export default function Item() {
         setRecommendServices(response.data);
       })
       .catch(function (error) {
-        console.log(error);
       });
   };
 
@@ -39,7 +37,6 @@ export default function Item() {
     fetchData(id);
     fetchDataRecommend()
   }, [id]);
-  console.log(servicesItem);
   return (
     <>
       {loading ? (
@@ -53,7 +50,6 @@ export default function Item() {
           <Container>
             <Row>
               {recommendServices.slice(0, 10).map(function (item) {
-                console.log(item);
                 return <ServicesItem data={item} key={item.id} />;
               })}
             </Row>
